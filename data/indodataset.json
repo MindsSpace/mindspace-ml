@@ -1,0 +1,501 @@
+{
+  "intents": [
+    {
+      "tag": "sapaan",
+      "input": [
+        "Hai",
+        "Halo",
+        "Ada orang di sana?",
+        "Hai di sana",
+        "Halo di sana",
+        "Hei di sana",
+        "Hola",
+        "Bonjour",
+        "Konnichiwa",
+        "Guten tag",
+        "Ola",
+        "Apa kabar?",
+        "Hey",
+        "Selamat pagi, siang, malam",
+        "Hai, apa kabar?",
+        "Halo, senang bertemu denganmu",
+        "Selamat datang"
+      ],
+      "responses": [
+        "Halo! Bagaimana kabarmu hari ini?",
+        "Hai! Apa yang bisa aku bantu hari ini?",
+        "Hai! Bagaimana perasaanmu hari ini?",
+        "Senang bertemu denganmu. Bagaimana kabarmu?",
+        "Halo! Senang melihatmu lagi. Ada yang ingin kamu ceritakan?",
+        "Hey! Bagaimana harimu?",
+        "Halo! Ada yang bisa kubantu?",
+        "Hai! Ada yang ingin kamu bicarakan?",
+        "Selamat datang! Bagaimana harimu?"
+      ]
+    },
+    {
+      "tag": "pagi",
+      "input": [
+        "Selamat pagi",
+        "Pagi!",
+        "Hai, selamat pagi",
+        "Pagi, bagaimana kabarmu?",
+        "Pagi, apa rencanamu hari ini?",
+        "Good morning"
+      ],
+      "responses": [
+        "Selamat pagi! Tidurmu nyenyak? Bagaimana kabarmu hari ini?",
+        "Pagi! Apa rencanamu hari ini?",
+        "Selamat pagi! Semoga harimu menyenangkan.",
+        "Pagi! Ada yang bisa aku bantu?",
+        "Pagi! Bagaimana tidurmu tadi malam?",
+        "Good morning! How are you today?"
+      ]
+    },
+    {
+      "tag": "siang",
+      "input": [
+        "Selamat siang",
+        "Siang!",
+        "Hai, selamat siang",
+        "Siang, bagaimana harimu?",
+        "Selamat siang, bagaimana kabarmu?",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Selamat siang! Bagaimana harimu sejauh ini?",
+        "Siang! Ada yang ingin dibicarakan?",
+        "Selamat siang! Apa kabar?",
+        "Siang! Bagaimana harimu berjalan?",
+        "Siang! Ada yang bisa aku bantu?",
+        "Good afternoon! How's your day going?"
+      ]
+    },
+    {
+      "tag": "malam",
+      "input": [
+        "Selamat malam",
+        "Malam!",
+        "Hai, selamat malam",
+        "Malam, bagaimana harimu?",
+        "Selamat malam, bagaimana kabarmu?",
+        "Good evening"
+      ],
+      "responses": [
+        "Selamat malam! Bagaimana harimu tadi?",
+        "Malam! Ada yang ingin kamu ceritakan?",
+        "Selamat malam! Apa kabar?",
+        "Malam! Bagaimana harimu?",
+        "Malam! Ada yang bisa aku bantu?",
+        "Good evening! How was your day?"
+      ]
+    },
+    {
+      "tag": "selamat_tidur",
+      "input": [
+        "Selamat tidur",
+        "Tidur nyenyak ya",
+        "Good night",
+        "Selamat malam, tidur yang nyenyak",
+        "Tidur yang nyenyak",
+        "Mimpi indah"
+      ],
+      "responses": [
+        "Selamat tidur! Semoga tidurmu nyenyak.",
+        "Selamat tidur! Mimpi indah ya.",
+        "Tidur yang nyenyak!",
+        "Selamat malam! Semoga esok harimu cerah.",
+        "Selamat tidur! Sampai jumpa besok.",
+        "Good night! Sweet dreams."
+      ]
+    },
+    {
+      "tag": "selamat_tinggal",
+      "input": [
+        "Sampai jumpa",
+        "Sampai nanti",
+        "Selamat tinggal",
+        "Au revoir",
+        "Sayonara",
+        "Ok bye",
+        "Bye bye",
+        "Dadah",
+        "Sampai ketemu lagi",
+        "Goodbye"
+      ],
+      "responses": [
+        "Sampai jumpa lagi!",
+        "Semoga harimu menyenangkan!",
+        "Bye! Kembali lagi ya.",
+        "Sampai jumpa lagi segera.",
+        "Dadah! Sampai bertemu lagi.",
+        "Selamat tinggal! Jaga diri baik-baik.",
+        "Sampai jumpa lagi! Jangan lupa kembali.",
+        "Goodbye! Take care."
+      ]
+    },
+    {
+      "tag": "terima_kasih",
+      "input": [
+        "Terima kasih",
+        "Terima kasih banyak",
+        "Itu membantu",
+        "Terima kasih atas bantuannya",
+        "Terima kasih banyak",
+        "Makasih ya",
+        "Thanks",
+        "Terima kasih ya",
+        "Thanks a lot",
+        "Thanks for your help",
+        "Aku berterima kasih",
+        "Thank you"
+      ],
+      "responses": [
+        "Senang bisa membantu!",
+        "Kapan saja!",
+        "Dengan senang hati!",
+        "Sama-sama!",
+        "Tidak masalah, senang bisa membantu.",
+        "Terima kasih kembali!",
+        "Aku senang bisa membantu.",
+        "Itu bukan masalah sama sekali.",
+        "You're welcome!"
+      ]
+    },
+    {
+      "tag": "tidak_ada_respon",
+      "input": [
+        "",
+        "........",
+        "???",
+        "Tidak ada yang dikatakan",
+        "Hening",
+        "Diam saja"
+      ],
+      "responses": [
+        "Maaf, aku tidak mengerti.",
+        "Silakan lanjutkan.",
+        "Aku tidak yakin aku mengerti itu.",
+        "Jangan ragu untuk berbicara denganku.",
+        "Maaf, bisa ulangi?",
+        "Aku di sini, ceritakan saja.",
+        "Kamu tidak sendirian, aku di sini."
+      ]
+    },
+    {
+      "tag": "respon_netral",
+      "input": [
+        "tidak banyak",
+        "biasa saja",
+        "nothing",
+        "nothing much",
+        "tidak ada yang spesial",
+        "biasa saja",
+        "tidak ada yang baru",
+        "tidak ada yang menarik"
+      ],
+      "responses": [
+        "Oh begitu. Ada yang ingin kamu bicarakan?",
+        "Oke, kalau begitu ada yang bisa aku bantu?",
+        "Baiklah, kalau ada yang ingin dibicarakan, aku di sini.",
+        "Mengerti. Apakah ada sesuatu yang ingin kamu ceritakan?",
+        "Itu terdengar santai. Apa ada yang bisa aku bantu?",
+        "Kalau begitu, mari kita bicarakan sesuatu yang lain."
+      ]
+    },
+    {
+      "tag": "tentang",
+      "input": [
+        "Siapa kamu?",
+        "Apa kamu?",
+        "Siapa kamu?",
+        "Ceritakan lebih banyak tentang dirimu.",
+        "Apa namamu?",
+        "Bagaimana saya harus memanggilmu?",
+        "Siapa namamu?",
+        "Ceritakan tentang dirimu",
+        "Kamu siapa?",
+        "Kenalkan dirimu",
+        "Apa pekerjaanmu?"
+      ],
+      "responses": [
+        "Aku Pandora, Asisten Terapi AI pribadimu. Bagaimana kabarmu hari ini?",
+        "Aku Pandora, Asisten Terapi AI yang siap membantu. Ceritakan tentang dirimu.",
+        "Aku Pandora. Aku di sini untuk membantumu. Jadi, bagaimana perasaanmu hari ini?",
+        "Kamu bisa panggil aku Pandora.",
+        "Aku Pandora!",
+        "Panggil saja aku Pandora.",
+        "Aku di sini untuk mendengarkan dan membantu.",
+        "Aku adalah AI yang dirancang untuk mendukung kesehatan mental."
+      ]
+    },
+    {
+      "tag": "kemampuan",
+      "input": [
+        "Apa yang bisa kamu lakukan?",
+        "Bisa bantu apa?",
+        "Kamu bisa ngapain?",
+        "Apa kemampuanmu?",
+        "Kamu bisa apa?",
+        "Apa fungsimu?"
+      ],
+      "responses": [
+        "Aku bisa memberikan saran umum tentang kecemasan dan depresi, menjawab pertanyaan tentang kesehatan mental, dan berbicara tentang berbagai hal. Tapi ingat, aku bukan pengganti terapis sebenarnya. Cari bantuan profesional jika kamu merasa perlu.",
+        "Aku di sini untuk mendengarkan dan memberikan saran mengenai kesehatan mental. Kalau ada yang ingin kamu bicarakan, ceritakan saja.",
+        "Aku bisa membantu kamu memahami perasaanmu lebih baik. Aku juga bisa memberikan informasi dan dukungan emosional.",
+        "Aku bisa menjadi teman bicara yang selalu siap mendengarkan.",
+        "Aku bisa memberikan panduan untuk relaksasi dan meditasi."
+      ]
+    },
+    {
+      "tag": "penciptaan",
+      "input": [
+        "Siapa yang menciptakanmu?",
+        "Bagaimana kamu dibuat?",
+        "Bagaimana kamu diciptakan?",
+        "Siapa yang bikin kamu?",
+        "Siapa pembuatmu?",
+        "Bagaimana kamu tercipta?"
+      ],
+      "responses": [
+        "Aku diciptakan oleh Bangkit Super Cohort.",
+        "Aku dilatih menggunakan data teks dengan teknik Pembelajaran Mendalam oleh Bangkit Super Cohort.",
+        "Aku adalah hasil dari proyek Bangkit Super Cohort.",
+        "Tim Bangkit Super Cohort yang mengembangkanku.",
+        "Aku dibangun menggunakan teknologi canggih oleh Bangkit Super Cohort."
+      ]
+    },
+    {
+      "tag": "perpisahan",
+      "input": [
+        "Sampai jumpa",
+        "Dadah",
+        "Selamat tinggal",
+        "Sampai bertemu lagi",
+        "Goodbye",
+        "See you later",
+        "Sayonara"
+      ],
+      "responses": [
+        "Sampai jumpa lagi! Semoga harimu menyenangkan.",
+        "Selamat tinggal! Jaga dirimu baik-baik.",
+        "Sampai bertemu lagi. Tetap sehat dan semangat!",
+        "Goodbye! Have a great day.",
+        "Sampai jumpa lagi! Jangan ragu untuk kembali.",
+        "Dadah! Sampai jumpa di lain waktu."
+      ]
+    },
+    {
+      "tag": "cuaca",
+      "input": [
+        "Bagaimana cuaca hari ini?",
+        "Apakah akan hujan hari ini?",
+        "Cuaca di luar seperti apa?",
+        "Hari ini cerah atau tidak?",
+        "Apakah cuaca mendukung untuk jalan-jalan?",
+        "Perkiraan cuaca hari ini bagaimana?",
+        "Cuaca hari ini bagaimana?",
+        "Apakah besok cerah?",
+        "Apakah akan turun salju?",
+        "Bagaimana cuaca di tempatku?"
+      ],
+      "responses": [
+        "Untuk mengetahui cuaca hari ini, kamu bisa cek aplikasi cuaca di ponselmu.",
+        "Cek aplikasi cuaca favoritmu untuk mengetahui detailnya.",
+        "Sayangnya aku tidak bisa memberikan informasi cuaca langsung, tapi kamu bisa menggunakan aplikasi cuaca di ponselmu.",
+        "Lebih baik cek aplikasi cuaca di ponselmu untuk info yang lebih akurat.",
+        "Untuk info cuaca terkini, gunakan aplikasi cuaca di ponselmu."
+      ]
+    },
+    {
+      "tag": "mood",
+      "input": [
+        "Aku merasa sedih",
+        "Aku merasa senang",
+        "Aku cemas",
+        "Aku marah",
+        "Aku tenang",
+        "Aku kecewa",
+        "Aku stres",
+        "Aku bahagia",
+        "Aku bingung",
+        "Aku khawatir",
+        "Aku gelisah"
+      ],
+      "responses": [
+        "Terima kasih sudah berbagi. Bagaimana aku bisa membantumu?",
+        "Aku di sini untuk mendengarkan. Ceritakan lebih banyak tentang perasaanmu.",
+        "Emosi yang kamu rasakan valid. Apa yang bisa aku bantu?",
+        "Mengerti. Apakah ada sesuatu yang spesifik yang ingin kamu bicarakan?",
+        "Emosi adalah bagian dari kehidupan. Ceritakan lebih banyak jika kamu mau.",
+        "Aku mendengarmu. Bagaimana aku bisa membantu mengurangi perasaan ini?"
+      ]
+    },
+    {
+      "tag": "hiburan",
+      "input": [
+        "Rekomendasi film dong",
+        "Ada rekomendasi buku?",
+        "Kasih rekomendasi musik",
+        "Film apa yang bagus?",
+        "Lagu apa yang enak didengar?",
+        "Buku apa yang harus aku baca?"
+      ],
+      "responses": [
+        "Untuk film, coba tonton yang bergenre drama atau komedi. Misalnya 'The Pursuit of Happyness' atau 'Forrest Gump'.",
+        "Untuk buku, coba baca 'To Kill a Mockingbird' oleh Harper Lee atau '1984' oleh George Orwell.",
+        "Untuk musik, dengarkan album 'Abbey Road' oleh The Beatles atau 'Thriller' oleh Michael Jackson.",
+        "Aku tidak bisa memberikan rekomendasi spesifik, tapi cobalah genre yang kamu sukai."
+      ]
+    },
+    {
+      "tag": "makanan",
+      "input": [
+        "Makanan enak apa hari ini?",
+        "Apa yang harus aku masak?",
+        "Rekomendasi tempat makan dong",
+        "Makanan favoritmu apa?",
+        "Masakan apa yang gampang dibuat?",
+        "Apa yang harus aku makan?"
+      ],
+      "responses": [
+        "Coba makanan khas daerahmu atau masakan yang kamu sukai.",
+        "Untuk masakan simpel, coba buat nasi goreng atau mie goreng.",
+        "Untuk tempat makan, kamu bisa coba cari restoran lokal dengan ulasan yang bagus.",
+        "Aku tidak makan, tapi aku tahu banyak orang suka pizza atau sushi.",
+        "Coba masakan yang sederhana dan cepat dibuat, seperti sandwich atau salad."
+      ]
+    },
+    {
+      "tag": "perjalanan",
+      "input": [
+        "Rekomendasi tempat wisata dong",
+        "Tempat liburan yang bagus apa?",
+        "Liburan kemana ya enaknya?",
+        "Tempat wisata terkenal apa?",
+        "Rekomendasi destinasi wisata?",
+        "Tempat jalan-jalan yang seru apa?"
+      ],
+      "responses": [
+        "Coba kunjungi destinasi populer seperti Bali, Yogyakarta, atau Lombok.",
+        "Untuk liburan, coba tempat yang menawarkan pemandangan alam indah seperti Raja Ampat atau Bromo.",
+        "Jika suka budaya, kunjungi kota bersejarah seperti Ubud atau Toraja.",
+        "Untuk petualangan, cobalah mendaki gunung atau menyelam di pulau tropis.",
+        "Banyak tempat menarik di Indonesia, seperti Komodo Island atau Labuan Bajo."
+      ]
+    },
+    {
+      "tag": "motivasi",
+      "input": [
+        "Butuh motivasi",
+        "Kasih kata-kata semangat dong",
+        "Aku butuh dorongan",
+        "Bisa kasih motivasi?",
+        "Motivasi untuk hari ini?",
+        "Semangatin aku dong"
+      ],
+      "responses": [
+        "Kamu bisa melakukannya! Percayalah pada dirimu sendiri.",
+        "Jangan pernah menyerah, setiap usaha pasti ada hasilnya.",
+        "Setiap hari adalah kesempatan baru untuk menjadi lebih baik.",
+        "Kamu kuat dan mampu menghadapi apapun yang datang.",
+        "Yakinlah, kamu lebih kuat dari yang kamu kira.",
+        "Tetap semangat! Setiap langkah kecil membawa kamu lebih dekat ke tujuanmu."
+      ]
+    },
+    {
+      "tag": "olahraga",
+      "input": [
+        "Apa olahraga yang bagus?",
+        "Aku butuh saran olahraga",
+        "Bagaimana cara memulai olahraga?",
+        "Apa olahraga yang mudah dilakukan?",
+        "Rekomendasi olahraga untuk pemula?",
+        "Apa olahraga favoritmu?"
+      ],
+      "responses": [
+        "Cobalah jalan cepat atau jogging di sekitar lingkunganmu.",
+        "Yoga atau pilates adalah pilihan bagus untuk pemula.",
+        "Olahraga yang bagus adalah yang kamu nikmati dan bisa kamu lakukan secara rutin.",
+        "Mulailah dengan latihan ringan seperti peregangan dan berjalan kaki.",
+        "Untuk pemula, cobalah bersepeda atau berenang.",
+        "Aku tidak berolahraga, tapi banyak orang menikmati jogging atau yoga."
+      ]
+    },
+    {
+      "tag": "kesehatan",
+      "input": [
+        "Bagaimana cara menjaga kesehatan?",
+        "Apa tips kesehatan?",
+        "Bagaimana cara hidup sehat?",
+        "Tips makan sehat?",
+        "Bagaimana cara menjaga kebugaran?"
+      ],
+      "responses": [
+        "Pastikan kamu makan makanan seimbang dan cukup beristirahat.",
+        "Olahraga secara rutin dan minum banyak air.",
+        "Hindari stres berlebihan dan luangkan waktu untuk bersantai.",
+        "Makan lebih banyak buah dan sayuran, dan kurangi makanan olahan.",
+        "Jaga kebersihan diri dan lingkungan sekitar."
+      ]
+    },
+    {
+      "tag": "belajar",
+      "input": [
+        "Bagaimana cara belajar efektif?",
+        "Tips untuk belajar lebih baik?",
+        "Cara mengingat pelajaran?",
+        "Bagaimana cara fokus saat belajar?",
+        "Rekomendasi teknik belajar?"
+      ],
+      "responses": [
+        "Buat jadwal belajar dan patuhi itu.",
+        "Coba belajar dalam sesi singkat dengan istirahat di antaranya.",
+        "Gunakan teknik mnemonik untuk mengingat informasi.",
+        "Temukan tempat yang tenang dan bebas dari gangguan.",
+        "Coba metode seperti pomodoro atau mind mapping untuk belajar lebih efektif."
+      ]
+    },
+    {
+      "tag": "teknologi",
+      "input": [
+        "Apa teknologi terbaru?",
+        "Berita teknologi terbaru?",
+        "Apa gadget terbaru?",
+        "Rekomendasi aplikasi?",
+        "Bagaimana cara menggunakan [nama aplikasi]?"
+      ],
+      "responses": [
+        "Teknologi terbaru banyak mencakup AI, blockchain, dan Internet of Things (IoT).",
+        "Untuk berita teknologi terbaru, cek situs seperti TechCrunch atau The Verge.",
+        "Gadget terbaru termasuk smartphone dengan teknologi 5G dan perangkat wearable.",
+        "Coba aplikasi produktivitas seperti Trello atau Evernote.",
+        "Untuk panduan menggunakan aplikasi, cek situs resmi atau tutorial di YouTube."
+      ]
+    },
+    {
+      "tag": "tidak_dikenal",
+      "input": [
+        "Ini apa?",
+        "Kenapa begitu?",
+        "Bagaimana bisa?",
+        "Apa yang sedang terjadi?",
+        "Apa maksudnya?",
+        "Aku tidak mengerti",
+        "Kenapa begitu?",
+        "Bisa jelaskan lebih lanjut?",
+        "Apa yang kamu katakan?",
+        "Aku bingung",
+        "Tolong bantu aku memahami ini"
+      ],
+      "responses": [
+        "Maaf, aku tidak mengerti pertanyaanmu. Bisa jelaskan lebih lanjut?",
+        "Aku tidak yakin dengan yang kamu maksud. Bisa berikan lebih banyak detail?",
+        "Pertanyaanmu menarik, tapi aku butuh lebih banyak informasi.",
+        "Coba jelaskan dengan cara lain, mungkin aku bisa membantu.",
+        "Aku tidak yakin memahami itu. Bisa beri lebih banyak konteks?",
+        "Bantu aku memahami pertanyaanmu dengan lebih detail."
+      ]
+    }
+  ]
+}
