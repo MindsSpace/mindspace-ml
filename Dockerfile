@@ -1,20 +1,16 @@
-# Use the official Python base image
-FROM python:3.10
+FROM --platform=linux/amd64 python:3.11.3
+ENV PYTHONUNBUFFERED True
 
-# Set the working directory inside the container
-WORKDIR /app
-
-# Copy the requirements file to the working directory
+RUN pip install --upgrade pip
 COPY requirements.txt .
+RUN pip install --no-cache-dir -r  requirements.txt
 
-# Install the Python dependencies
-RUN pip install -r requirements.txt
+ENV APP_HOME /root
 
-# Copy the application code to the working directory
-COPY . .
+WORKDIR $APP_HOME
 
-# Expose the port on which the application will run
-# EXPOSE from environment variable
-# Run the FastAPI application using uvicorn server
-CMD ["fastapi", "run", "app.py"]
+COPY . $APP_HOME
 
+EXPOSE 8080
+
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]

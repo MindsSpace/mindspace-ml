@@ -9,7 +9,7 @@ resource "google_cloud_run_v2_service" "default" {
 
   template {
     containers {
-      image = "asia-southeast2-docker.pkg.dev/mindspace-capstone-project/mindspace/mechine-learning:latest"
+      image = "asia-southeast2-docker.pkg.dev/mindspace-capstone-project/mindspace/mindspace-ml:latest"
     }
   }
 }
