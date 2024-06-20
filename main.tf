@@ -7,15 +7,9 @@ resource "google_cloud_run_v2_service" "default" {
   location = "asia-southeast2"
   client   = "terraform"
 
-  # set the port to 8080
-
-
   template {
     containers {
       image = "asia-southeast2-docker.pkg.dev/mindspace-capstone-project/mindspace/mechine-learning:latest"
-      ports {
-        container_port = 8080
-      }
     }
   }
 }
