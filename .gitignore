@@ -1,2 +1,5 @@
 __pycache__
 env
+.terraform.local.hcl
+terraform.tfstate
+terraform.tfstate.backup
